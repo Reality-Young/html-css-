@@ -1,0 +1,198 @@
+
+/* 头部样式 */
+.header {
+    height: 32px;
+    position: relative;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.header a {
+    text-decoration: underline;
+}
+
+.header .baidulink {
+    float: right;  
+    line-height: 32px;
+    margin-right: 39px;
+}
+
+.header .baidulink a {
+    font-weight: 700;
+    color: #333;
+    margin-left: 22px;
+}
+
+.header .baidulink .active {
+    text-decoration: none; 
+    cursor: text;
+}
+
+.header .userLogin {
+    float: right;
+    line-height: 32px;
+    left: 11px;
+}
+
+.header .userLogin li {
+    margin: 0 11px;
+}
+
+.header .userLogin li:nth-child(4) {
+    margin: 0 20px 0 11px;
+}
+/* 输入框样式 */
+.search {
+    height: 53px;
+}
+
+.search .search-wrapper {
+    width: 984px;
+    margin: 0 auto;
+}
+
+.search a img {
+    width: 135px;
+    height: 43px;
+    display: inline-block;
+    vertical-align: center;
+}
+
+.search .content input {
+    width: 535px;
+    height: 40px;
+}
+
+.search .btn {
+    width: 104px;
+    height: 40px;
+    outline: none;
+    color: #fff;
+    background-color: #38f;
+}
+
+/* 导航栏 */
+.nav {
+    width: 100%;
+    height: 40px;
+    background-color: #01204F;
+}
+.nav .topnav {
+    width: 984px;
+    height: 40px;
+    position: relative;
+    margin: 0 auto;
+      
+}
+.nav .topnav ul {
+    position: absolute;
+    
+    height: 40px;
+    left: 118px;
+}
+.nav ul li a {
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #fff;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.nav ul li:nth-child(1) a {
+    padding-left: 30px;
+    background-image: url(../images/icon-index_20aa3cd.png);
+    background-position: 6px 7px;
+    background-repeat: no-repeat;
+
+}
+/* 内容部分 */
+#body {
+    width: 984px;
+    margin: 0 auto;
+}
+
+#body li {
+    display: block;
+    height: 27px;
+}
+
+/* a元素hover状态 */
+#body li a:hover {
+    color: #900;
+    text-decoration: underline;
+}
+
+/* 第一块内容 */
+.column1 {
+    margin: 25px 0 26px;
+    height: 340px;
+    overflow: hidden;
+}
+
+.headline {
+    padding: 0;
+    height: 52px;
+    line-height: 52px;
+    border-bottom: 1px solid #ececec;
+    border-top: 2px solid #c7c7c7;
+    overflow: visible;
+}
+
+h3 {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: relative;
+    padding-top: 6px;
+    border-top: 2px solid #069;
+    top: -2px;
+    padding-right: 5px;
+    font: 400 20px/26px "Microsoft YaHei",\5FAE\8F6F\96C5\9ED1,tahoma;
+    color: #069;
+    background: #fff;
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+}
+
+.headline span {
+    display: block;
+    font: 400 9px/12px arial;
+    color: #999;
+    text-transform: uppercase;
+}
+
+/* 轮播图内容 */
+
+
+.banner {
+    float: left;
+    width: 665px;
+    height: 340px;
+    background-color: #f00;
+}
+
+.instantNews {
+    float: right;
+    width: 290px;
+    height: 340px;
+    background-color: #00f;
+    margin: 0;
+}
+
+.instantNews ul li a::before{
+   content: url();
+}
+
+
+.focalNews {
+    float: left;
+    width: 658px;
+    background-color: #ff0;
+}
+
+.picturesNews {
+    float: right;
+    width: 290px;
+    background-color: #0f0;
+}
+
